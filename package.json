@@ -1,0 +1,13 @@
+{
+  "name": "cssThea",
+  "version": "1.0.0",
+  "description": "cssThea simple Ui kit for your appplication",
+  "dependencies": {
+      "clipboard" : "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
