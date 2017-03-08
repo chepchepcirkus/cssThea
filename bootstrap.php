@@ -32,27 +32,34 @@
     </a>
     <nav>
         <a href="#" id="close-menu-trigger"><i class="fa fa-close fa-2x"></i></a>
-        <a href="#usefull-classes" title="Usefull Classes">Usefull classes</a>
-        <a href="#grid" title="Grid">Grid</a>
-        <a href="#time-line" title="Time line">Time line</a>
-        <a href="#bar" title="Barre">Barre</a>
-        <a href="#background-color" title="Background color">Background Color</a>
-        <a href="#buttons" title="Buttons">Buttons</a>
-        <a href="#flash-message" title="Flash message">Flash message</a>
-        <a href="#tabs" title="Tabs">Tabs</a>
+        <a href="#usefull-classes" class="scroll-to-anchor" title="Usefull Classes">Usefull classes</a>
+        <a href="#grid" class="scroll-to-anchor" title="Grid">Grid</a>
+        <a href="#time-line" class="scroll-to-anchor" title="Time line">Time line</a>
+        <a href="#bar" class="scroll-to-anchor" title="Barre">Barre</a>
+        <a href="#background-color" class="scroll-to-anchor" title="Background color">Background Color</a>
+        <a href="#buttons" class="scroll-to-anchor" title="Buttons">Buttons</a>
+        <a href="#flash-message" class="scroll-to-anchor" title="Flash message">Flash message</a>
+        <a href="#tabs" class="scroll-to-anchor" title="Tabs">Tabs</a>
+        <a href="#scroll" class="scroll-to-anchor" title="Scroll">Scroll</a>
         <a href="http://www.codythea.com"><i class="fa fa-coffee"></i> codythea.com</a>
     </nav>
 </header>
 <main>
     <div class="flash-message-container"></div>
-    <p class="a-center">cssThea is a simple UI Kit for your application, <br/> feel free to <br/>fork, share and customize, <br/>enjoy <a href="https://github.com/chepchepcirkus/cssThea"><i class="fa fa-github"></i> cssThea</a><br/> Any feed back or contribution will be appreciated.</p>
+    <a href="#" id="scroll-up-btn" style="display: none;" onclick="scrollToTop()" class="btn-scroll-up"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
+    <p class="a-center head-line">cssThea is a simple UI Kit for your application, <br/> feel free to <br/>fork, share and customize, <br/>enjoy <a href="https://github.com/chepchepcirkus/cssThea"><i class="fa fa-github"></i> cssThea</a><br/> Any feed back or contribution will be appreciated.</p>
     <div class="cont">
         <h2 id="usefull-classes">Usefull classes</h2>
         <div class="w-5">
-            <p class="a-center">ALIGNEMENT</p>
+            <h3>Alignement</h3>
             <p class="a-left">class : a-left</p>
             <p class="a-center">class : a-center</p>
             <p class="a-right">class : a-right</p>
+        </div>
+        <div class="w-5">
+            <h3>Head line</h3>
+            <p>.head-line</p>
+            <p class="head-line">You can introduce your self here !</p>
         </div>
     </div>
     <div class="cont">
@@ -320,6 +327,81 @@ window.dispatchEvent(event);
                 ?>
                 </pre>
             </code>
+        </div>
+    </div>
+    <div class="cont">
+        <h3 id="scroll">Scroll</h3>
+        <div class="w-10">
+            <h4>Scroll up</h4>
+            <p>Html :
+                <button class="btn-copy-code button" data-clipboard-target="#scroll-code-html-copy">
+                    <i class="fa fa-copy"></i>
+                </button>
+            </p>
+            <code type="html">
+                <pre id="#scroll-code-html-copy">
+                <?php
+                $code = '
+<a href="#" id="scroll-up-btn" style="display: none;" onclick="scrollToTop()" class="btn-scroll-up"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
+';
+                echo htmlspecialchars($code);
+                ?>
+                </pre>
+            </code>
+        </div>
+        <div class="w-10">
+            <h4>Scroll to anchor</h4>
+            <div class="w-10">
+                <p>Place your anchor</p>
+                <code type="html">
+                    <pre>
+                    <?php
+                    $code = '
+    <h2 id="my-anchor">My Anchor</h2>
+    ';
+                    echo htmlspecialchars($code);
+                    ?>
+                    </pre>
+                </code>
+                <p>Then you can reach it by 2 way : </p>
+            </div>
+            <div class="w-10">
+                <p>By Classic anchor</p>
+                <p><i><strong>.scroll-to-anchor</strong> is the class that trigger a smooth effect going to the anchor, if javascript is not available backwards compatibility is managed by the href attribute</i></p>
+                <p>Html :
+                    <button class="btn-copy-code button" data-clipboard-target="#scroll-anchor-classic-code-html-copy">
+                        <i class="fa fa-copy"></i>
+                    </button>
+                </p>
+                <code type="html">
+                    <pre id="#scroll-anchor-classic-code-html-copy">
+                    <?php
+                    $code = '
+    <a href="#my-anchor"  class="scroll-to-anchor">Classic scroll to anchor</a>
+    ';
+                    echo htmlspecialchars($code);
+                    ?>
+                    </pre>
+                </code>
+            </div>
+            <div class="w-10">
+                <p>By trigger it from anywhere you want</p>
+                <p>Html :
+                    <button class="btn-copy-code button" data-clipboard-target="#scroll-anchor-trigger-code-html-copy">
+                        <i class="fa fa-copy"></i>
+                    </button>
+                </p>
+                <code type="html">
+                    <pre id="#scroll-anchor-trigger-code-html-copy">
+                    <?php
+                    $code = '
+    <button onclick="scrollToAnchor(\'#my-anchor\')">Triggered Scroll to anchor</a>
+    ';
+                    echo htmlspecialchars($code);
+                    ?>
+                    </pre>
+                </code>
+            </div>
         </div>
     </div>
 </main>

@@ -7,13 +7,28 @@ function stickHeader() {
 		$('header').removeClass('fix');
 	}
 }
+// Show Scroll up Btn
+function showScrollUpBtn() {
+    if ($(window).scrollTop() >= 0) {
+        $('#scroll-up-btn').show();
+    }
+    if ($(window).scrollTop() <= 10) {
+        $('#scroll-up-btn').hide();
+    }
+}
 
 // Scroll to anchor
 function scrollToAnchor(id){
 	var anchor = $(id);
-	if(anchor.length == 0) {
-		$('html,body').animate({scrollTop: (anchor.offset().top-50)},'slow');
+	if(anchor.length != 0) {
+		$('html,body').animate({scrollTop: (anchor.offset().top-200)},'slow');
 	}
+}
+
+
+// Scroll to top
+function scrollToTop(){
+    $('html,body').animate({scrollTop: 0},'slow');
 }
 
 function setViewPortBodyClass(width){
@@ -53,12 +68,14 @@ jQuery(document).ready(function($) {
 	// Header fixed on scroll
 	$(window).bind('scroll', function() {
 		stickHeader();
+        showScrollUpBtn();
 	});
 	stickHeader();
 
-	$('a').click(function() {
+	// Anchor click observer
+	$('.scroll-to-anchor').click(function(event) {
 		var id = $(this).attr('href').substr($(this).attr('href').indexOf("#"));
-		scrollToAnchor(id)
+		scrollToAnchor(id);
 	});
 
 	// PANEL CUSTOM
