@@ -7,10 +7,10 @@
     <meta name="keywords" content="bootstrap css, framework css, cssthea, codythea.com"/>
     <title>cssThea</title>
     <meta name="robots" content="INDEX, FOLLOW"/>
-    <link rel="stylesheet" href="css/cssthea.css"/>
-    <link rel="stylesheet" href="css/font-awesome.css"/>
-    <script src="js/jquery-2.2.3-min.js"></script>
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="cssThea/css/cssthea.css"/>
+    <link rel="stylesheet" href="cssThea/css/font-awesome.css"/>
+    <script src="cssThea/js/jquery-2.2.3-min.js"></script>
+    <script src="cssThea/js/main.js"></script>
     <script src="node_modules/clipboard/dist/clipboard.min.js"></script>
 </head>
 <body>
