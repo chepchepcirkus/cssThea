@@ -45,7 +45,7 @@
 </header>
 <main>
     <div class="flash-message-container"></div>
-    <p class="a-center">cssThea is a simple bootstrap for your application, <br/> feel free to <br/>fork it, share and customize, <br/>enjoy.<br/> Any feed back or contribution will be appreciated, more <a href=""><i class="fa fa-github"></i> Here</a></p>
+    <p class="a-center">cssThea is a simple UI Kit for your application, <br/> feel free to <br/>fork, share and customize, <br/>enjoy <a href="https://github.com/chepchepcirkus/cssThea"><i class="fa fa-github"></i> cssThea</a><br/> Any feed back or contribution will be appreciated.</p>
     <div class="cont">
         <h2 id="usefull-classes">Usefull classes</h2>
         <div class="w-5">
