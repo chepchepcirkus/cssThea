@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="content-language" content="fr-FR" />
     <meta name="keywords" content="bootstrap css, framework css, cssthea, codythea.com"/>
-    <title>cssThea</title>
+    <meta name="description" content="bootstrap css, framework css, cssthea, codythea.com"/>
+    <title>cssThea - codythea.com</title>
     <meta name="robots" content="INDEX, FOLLOW"/>
     <link rel="stylesheet" href="cssThea/css/cssthea.css"/>
+    <link rel="stylesheet" href="cssThea/css/cssthea-theme.css"/>
     <link rel="stylesheet" href="cssThea/css/font-awesome.css"/>
     <script src="cssThea/js/jquery-2.2.3-min.js"></script>
     <script src="cssThea/js/main.js"></script>
@@ -64,6 +66,7 @@
     </div>
     <div class="cont">
         <h2 id="grid">Grid</h2>
+        <p><i>Grid block behaviour below is available only if the view port is >= 768px,<br />under 768px block takes 100% of width</i></p>
         <div class="w-10 bg-grey-light a-center">10</div>
         <div class="w-9 bg-grey-light a-center">9</div>
         <div class="w-1 bg-grey-light a-center">1</div>
@@ -104,14 +107,58 @@
                 </button>
             </p>
             <code type="html">
-                <pre id="grid-code">
-                <?php
-                $code = '
+                    <pre id="grid-code">
+                    <?php
+                    $code = '
 <div class="w-1 bg-grey"></div>
 ';
-                echo htmlspecialchars($code);
-                ?>
-                </pre>
+                    echo htmlspecialchars($code);
+                    ?>
+                    </pre>
+            </code>
+        </div>
+        <p>.push-[1-9]</p>
+        <div class="w-1 push-1 bg-grey-light a-center">p-1</div>
+        <div class="w-1 push-2 bg-grey-light a-center">p-2</div>
+        <div class="w-3 push-3 bg-grey-light a-center">p-3</div>
+        <div class="w-6 push-4 bg-grey-light a-center">p-4</div>
+        <div class="w-2 push-5 bg-grey-light a-center">p-5</div>
+        <div class="w-4 push-6 bg-grey-light a-center">p-6</div>
+        <div class="w-1 push-7 bg-grey-light a-center">p-7</div>
+        <div class="w-1 push-8 bg-grey-light a-center">p-8</div>
+        <div class="w-1 push-9 bg-grey-light a-center">p-9</div>
+        <p>.cont</p>
+        <p><i>class .cont behave as a container, that isolate your block</i></p>
+        <div class="cont">
+            <div class="w-1 push-1 bg-grey-light a-center">p-1</div>
+            <div class="w-1 push-2 bg-grey-light a-center">p-2</div>
+        </div>
+        <div class="cont">
+            <div class="w-1 push-5 bg-grey-light a-center">p-1</div>
+            <div class="w-1 push-1 bg-grey-light a-center">p-2</div>
+        </div>
+        <div class="w-10">
+            <p>Html :
+                <button class="btn-copy-code button" data-clipboard-target="#grid-pushcode">
+                    <i class="fa fa-copy"></i>
+                </button>
+            </p>
+            <code type="html">
+                    <pre id="grid-push-code">
+                    <?php
+                    $code = '
+<div class="cont">
+    <div class="w-1 push-1 bg-grey-light a-center">p-1</div>
+    <div class="w-1 push-2 bg-grey-light a-center">p-2</div>
+</div>
+<div class="cont">
+    <div class="w-1 push-5 bg-grey-light a-center">p-1</div>
+    <div class="w-1 push-1 bg-grey-light a-center">p-2</div>
+</div>
+    ';
+                    echo htmlspecialchars($code);
+                    ?>
+                    </pre>
             </code>
         </div>
     </div>

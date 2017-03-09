@@ -5,4 +5,6 @@ cssThea is a simple UI Kit for your application, feel free to fork, share and cu
 
 Any feed back or contribution will be appreciated.
 
-enjoy [cssThea](http://www.codythea.com/bootstrap.php "cssThea") 
+enjoy [cssThea - Bootstrap](http://www.codythea.com/cssthea.php "cssThea") 
+or [cssThea - Theme](http://www.codythea.com/cssthea-theme.php "cssThea") 
+

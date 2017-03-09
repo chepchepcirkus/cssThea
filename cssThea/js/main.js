@@ -21,7 +21,7 @@ function showScrollUpBtn() {
 function scrollToAnchor(id){
 	var anchor = $(id);
 	if(anchor.length != 0) {
-		$('html,body').animate({scrollTop: (anchor.offset().top-200)},'slow');
+		$('html,body').animate({scrollTop: (anchor.offset().top-100)},'slow');
 	}
 }
 
