@@ -43,6 +43,7 @@
         <a href="#flash-message" class="scroll-to-anchor" title="Flash message">Flash message</a>
         <a href="#tabs" class="scroll-to-anchor" title="Tabs">Tabs</a>
         <a href="#scroll" class="scroll-to-anchor" title="Scroll">Scroll</a>
+        <a href="http://www.codythea.com/cssthea-theme.html"><i class="fa fa-coffee"></i> cssThea Theme</a>
         <a href="http://www.codythea.com"><i class="fa fa-coffee"></i> codythea.com</a>
     </nav>
 </header>
