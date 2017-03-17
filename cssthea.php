@@ -8,6 +8,7 @@
     <meta name="description" content="bootstrap css, framework css, cssthea, codythea.com"/>
     <title>cssThea - codythea.com</title>
     <meta name="robots" content="INDEX, FOLLOW"/>
+    <link rel="stylesheet" href="cssThea/css/normalize.css"/>
     <link rel="stylesheet" href="cssThea/css/cssthea.css"/>
     <link rel="stylesheet" href="cssThea/css/cssthea-theme.css"/>
     <link rel="stylesheet" href="cssThea/css/font-awesome.css"/>
@@ -43,6 +44,7 @@
         <a href="#flash-message" class="scroll-to-anchor" title="Flash message">Flash message</a>
         <a href="#tabs" class="scroll-to-anchor" title="Tabs">Tabs</a>
         <a href="#scroll" class="scroll-to-anchor" title="Scroll">Scroll</a>
+        <a href="#table" class="scroll-to-anchor" title="Table">Table</a>
         <a href="http://www.codythea.com/cssthea-theme.html"><i class="fa fa-coffee"></i> cssThea Theme</a>
         <a href="http://www.codythea.com"><i class="fa fa-coffee"></i> codythea.com</a>
     </nav>
@@ -68,40 +70,30 @@
     <div class="cont">
         <h2 id="grid">Grid</h2>
         <p><i>Grid block behaviour below is available only if the view port is >= 768px,<br />under 768px block takes 100% of width</i></p>
+        <div class="w-12 bg-grey-light a-center">12</div>
+        <div class="w-11 bg-grey-light a-center">11</div>
+        <div class="w-1 bg-grey-light a-center">1</div>
         <div class="w-10 bg-grey-light a-center">10</div>
+        <div class="w-2 bg-grey-light a-center">2</div>
         <div class="w-9 bg-grey-light a-center">9</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
+        <div class="w-3 bg-grey-light a-center">3</div>
         <div class="w-8 bg-grey-light a-center">8</div>
-        <div class="w-2 bg-grey-light a-center">2</div>
+        <div class="w-4 bg-grey-light a-center">4</div>
         <div class="w-7 bg-grey-light a-center">7</div>
-        <div class="w-3 bg-grey-light a-center">3</div>
+        <div class="w-5 bg-grey-light a-center">5</div>
         <div class="w-6 bg-grey-light a-center">6</div>
-        <div class="w-4 bg-grey-light a-center">4</div>
+        <div class="w-6 bg-grey-light a-center">6</div>
         <div class="w-5 bg-grey-light a-center">5</div>
-        <div class="w-5 bg-grey-light a-center">5</div>
+        <div class="w-7 bg-grey-light a-center">7</div>
         <div class="w-4 bg-grey-light a-center">4</div>
-        <div class="w-4 bg-grey-light a-center">4</div>
-        <div class="w-2 bg-grey-light a-center">2</div>
+        <div class="w-8 bg-grey-light a-center">8</div>
         <div class="w-3 bg-grey-light a-center">3</div>
-        <div class="w-3 bg-grey-light a-center">3</div>
-        <div class="w-3 bg-grey-light a-center">3</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
+        <div class="w-9 bg-grey-light a-center">9</div>
         <div class="w-2 bg-grey-light a-center">2</div>
-        <div class="w-2 bg-grey-light a-center">2</div>
-        <div class="w-2 bg-grey-light a-center">2</div>
-        <div class="w-2 bg-grey-light a-center">2</div>
-        <div class="w-2 bg-grey-light a-center">2</div>
+        <div class="w-10 bg-grey-light a-center">10</div>
         <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-1 bg-grey-light a-center">1</div>
-        <div class="w-10">
+        <div class="w-11 bg-grey-light a-center">11</div>
+        <div class="w-12">
             <p>Html :
                 <button class="btn-copy-code button" data-clipboard-target="#grid-code">
                     <i class="fa fa-copy"></i>
@@ -138,7 +130,7 @@
             <div class="w-1 push-5 bg-grey-light a-center">p-1</div>
             <div class="w-1 push-1 bg-grey-light a-center">p-2</div>
         </div>
-        <div class="w-10">
+        <div class="w-12">
             <p>Html :
                 <button class="btn-copy-code button" data-clipboard-target="#grid-pushcode">
                     <i class="fa fa-copy"></i>
@@ -165,14 +157,14 @@
     </div>
     <div class="cont">
         <h3 id="time-line">Time line</h3>
-        <div class="w-5">
+        <div class="w-6">
             <ul class="time-line">
                 <li><span></span>20017/2016</li>
                 <li><span></span>2005/2016</li>
                 <li><span></span>2004/2005</li>
             </ul>
         </div>
-        <div class="w-5">
+        <div class="w-6">
             <p>Html :
                 <button class="btn-copy-code button" data-clipboard-target="#time-line-code">
                     <i class="fa fa-copy"></i>
@@ -196,7 +188,7 @@
     </div>
     <div class="cont">
         <h3 id="bar">Bar</h3>
-        <div class="w-5">
+        <div class="w-6">
             <p><span class="rate-wrapper"><span class="rate"></span></span></p>
             <p><span class="rate-wrapper"><span class="rate rate-90"></span></span></p>
             <p><span class="rate-wrapper"><span class="rate rate-80"></span></span></p>
@@ -209,7 +201,7 @@
             <p><span class="rate-wrapper"><span class="rate rate-10"></span></span></p>
             <p><span class="rate-wrapper"><span class="rate rate-0"></span></span></p>
         </div>
-        <div class="w-5">
+        <div class="w-6">
             <p>Html :
                 <button class="btn-copy-code button" data-clipboard-target="#bar-code">
                     <i class="fa fa-copy"></i>
@@ -231,20 +223,20 @@
     </div>
     <div class="cont">
         <h3 id="background-color">Background color</h3>
-        <div class="w-10 bg-grey-light">.bg-grey-light</div>
-        <div class="w-10 bg-grey">.bg-grey</div>
-        <div class="w-10 bg-greenthea-light">.bg-greenthea-light</div>
-        <div class="w-10 bg-greenthea">.bg-greenthea</div>
-        <div class="w-10 bg-blue-light">.bg-blue-light</div>
-        <div class="w-10 bg-blue">.bg-blue</div>
-        <div class="w-10 bg-red-light">.bg-red-light</div>
-        <div class="w-10 bg-red">.bg-red</div>
-        <div class="w-10 bg-orange-light">.bg-orange-light</div>
-        <div class="w-10 bg-orange">.bg-orange</div>
+        <div class="w-12 bg-grey-light">.bg-grey-light</div>
+        <div class="w-12 bg-grey">.bg-grey</div>
+        <div class="w-12 bg-greenthea-light">.bg-greenthea-light</div>
+        <div class="w-12 bg-greenthea">.bg-greenthea</div>
+        <div class="w-12 bg-blue-light">.bg-blue-light</div>
+        <div class="w-12 bg-blue">.bg-blue</div>
+        <div class="w-12 bg-red-light">.bg-red-light</div>
+        <div class="w-12 bg-red">.bg-red</div>
+        <div class="w-12 bg-orange-light">.bg-orange-light</div>
+        <div class="w-12 bg-orange">.bg-orange</div>
     </div>
     <div class="cont">
         <h3 id="buttons">Buttons</h3>
-        <div class="w-10">
+        <div class="w-12">
             <button type="button" class="button">.button</button>
         </div>
         <p>Html :
@@ -265,7 +257,7 @@
     </div>
     <div class="cont">
         <h3 id="flash-message">Flash message</h3>
-        <div class="w-10">
+        <div class="w-12">
             <button type="button" class="flash-message-button button bg-greenthea" data-class="bg-greenthea-light" data-toggle="flash-message" data-text="Sed ut perspiciatis unde omnis iste natus error">Success</button>
             <button type="button" class="flash-message-button button bg-orange" data-class="bg-orange-light" data-toggle="flash-message" data-text="Sed ut perspiciatis unde omnis iste natus error">Warning</button>
             <button type="button" class="flash-message-button button bg-red" data-class="bg-red-light" data-toggle="flash-message" data-text="Sed ut perspiciatis unde omnis iste natus error">error</button>
@@ -348,7 +340,7 @@ window.dispatchEvent(event);
                 </div>
             </div>
         </div>
-        <div class="w-10">
+        <div class="w-12">
             <p>Html :
                 <button class="btn-copy-code button" data-clipboard-target="#tab-code">
                     <i class="fa fa-copy"></i>
@@ -379,7 +371,7 @@ window.dispatchEvent(event);
     </div>
     <div class="cont">
         <h3 id="scroll">Scroll</h3>
-        <div class="w-10">
+        <div class="w-12">
             <h4>Scroll up</h4>
             <p>Html :
                 <button class="btn-copy-code button" data-clipboard-target="#scroll-code-html-copy">
@@ -387,7 +379,7 @@ window.dispatchEvent(event);
                 </button>
             </p>
             <code type="html">
-                <pre id="#scroll-code-html-copy">
+                <pre id="scroll-code-html-copy">
                 <?php
                 $code = '
 <a href="#" id="scroll-up-btn" style="display: none;" onclick="scrollToTop()" class="btn-scroll-up"><i class="fa fa-chevron-circle-up fa-3x"></i></a>
@@ -397,9 +389,9 @@ window.dispatchEvent(event);
                 </pre>
             </code>
         </div>
-        <div class="w-10">
+        <div class="w-12">
             <h4>Scroll to anchor</h4>
-            <div class="w-10">
+            <div class="w-12">
                 <p>Place your anchor</p>
                 <code type="html">
                     <pre>
@@ -413,7 +405,7 @@ window.dispatchEvent(event);
                 </code>
                 <p>Then you can reach it by 2 way : </p>
             </div>
-            <div class="w-10">
+            <div class="w-12">
                 <p>By Classic anchor</p>
                 <p><i><strong>.scroll-to-anchor</strong> is the class that trigger a smooth effect going to the anchor, if javascript is not available backwards compatibility is managed by the href attribute</i></p>
                 <p>Html :
@@ -422,7 +414,7 @@ window.dispatchEvent(event);
                     </button>
                 </p>
                 <code type="html">
-                    <pre id="#scroll-anchor-classic-code-html-copy">
+                    <pre id="scroll-anchor-classic-code-html-copy">
                     <?php
                     $code = '
     <a href="#my-anchor"  class="scroll-to-anchor">Classic scroll to anchor</a>
@@ -432,7 +424,7 @@ window.dispatchEvent(event);
                     </pre>
                 </code>
             </div>
-            <div class="w-10">
+            <div class="w-12">
                 <p>By trigger it from anywhere you want</p>
                 <p>Html :
                     <button class="btn-copy-code button" data-clipboard-target="#scroll-anchor-trigger-code-html-copy">
@@ -440,7 +432,7 @@ window.dispatchEvent(event);
                     </button>
                 </p>
                 <code type="html">
-                    <pre id="#scroll-anchor-trigger-code-html-copy">
+                    <pre id="scroll-anchor-trigger-code-html-copy">
                     <?php
                     $code = '
     <button onclick="scrollToAnchor(\'#my-anchor\')">Triggered Scroll to anchor</a>
@@ -450,6 +442,74 @@ window.dispatchEvent(event);
                     </pre>
                 </code>
             </div>
+        </div>
+    </div>
+    <div class="cont">
+        <h3 id="table">Table</h3>
+        <div class="w-12">
+            <h4>Table</h4>
+            <table class="w-12">
+                <thead>
+                <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                    <th>Column 3</th>
+                    <th>Column 4</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                </tr>
+                <tr>
+                    <td>Value 1</td>
+                    <td>Value 2</td>
+                    <td>Value 3</td>
+                    <td>Value 4</td>
+                </tr>
+                </tbody>
+            </table>
+            <p>Html :
+                <button class="btn-copy-code button" data-clipboard-target="#table-code-html-copy">
+                    <i class="fa fa-copy"></i>
+                </button>
+            </p>
+            <code type="html">
+                <pre id="table-code-html-copy">
+                <?php
+                $code = '
+<table class="w-12">
+  <thead>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+      <th>Column 3</th>
+      <th>Column 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Value 1</td>
+      <td>Value 2</td>
+      <td>Value 3</td>
+      <td>Value 4</td>
+    </tr>
+    <tr>
+      <td>Value 1</td>
+      <td>Value 2</td>
+      <td>Value 3</td>
+      <td>Value 4</td>
+    </tr>
+  </tbody>
+</table>
+';
+                echo htmlspecialchars($code);
+                ?>
+                </pre>
+            </code>
         </div>
     </div>
 </main>
