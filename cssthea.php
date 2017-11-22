@@ -29,25 +29,34 @@
     });
 </script>
 <header>
-    <h1><i class="fa fa-coffee"></i> cssThea <small>light taste</small></h1>
-    <a href="#" class="open-menu-trigger" id="open-menu-trigger">
-        <i class="fa fa-bars fa-3x"></i>
-    </a>
-    <nav>
-        <a href="#" id="close-menu-trigger"><i class="fa fa-close fa-2x"></i></a>
-        <a href="#usefull-classes" class="scroll-to-anchor" title="Usefull Classes">Usefull classes</a>
-        <a href="#grid" class="scroll-to-anchor" title="Grid">Grid</a>
-        <a href="#time-line" class="scroll-to-anchor" title="Time line">Time line</a>
-        <a href="#bar" class="scroll-to-anchor" title="Barre">Barre</a>
-        <a href="#background-color" class="scroll-to-anchor" title="Background color">Background Color</a>
-        <a href="#buttons" class="scroll-to-anchor" title="Buttons">Buttons</a>
-        <a href="#flash-message" class="scroll-to-anchor" title="Flash message">Flash message</a>
-        <a href="#tabs" class="scroll-to-anchor" title="Tabs">Tabs</a>
-        <a href="#scroll" class="scroll-to-anchor" title="Scroll">Scroll</a>
-        <a href="#table" class="scroll-to-anchor" title="Table">Table</a>
-        <a href="http://www.codythea.com/cssthea-theme.html"><i class="fa fa-coffee"></i> cssThea Theme</a>
-        <a href="http://www.codythea.com"><i class="fa fa-coffee"></i> codythea.com</a>
-    </nav>
+    <div>
+        <h1><i class="fa fa-coffee"></i> cssThea <small>light taste</small></h1>
+        <div class="social-network">
+            <a target="_blank" href="https://fr.linkedin.com/in/steven-servanton-26322681" title="Rejoignez-moi sur Linked in"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a target="_blank" href="https://github.com/chepchepcirkus" title="Rejoignez-moi sur github.com"><i class="fa fa-github fa-2x"></i></a>
+            <a target="_blank" href="https://www.malt.fr/profile/stevenservanton" data-id="586f8abc3ef87730d5dfd408" class="hopwork_button" data-width="big" data-layout="scare">Malt</a>
+        </div>
+        <a class="open-menu-trigger" id="open-menu-trigger">
+            <i class="fa fa-bars fa-3x"></i>
+        </a>
+        <a class="close-menu-trigger" id="close-menu-trigger" style="display:none;">
+            <i class="fa fa-close fa-3x"></i>
+        </a>
+        <nav>
+            <a href="#usefull-classes" class="scroll-to-anchor" title="Usefull Classes">Usefull classes</a>
+            <a href="#grid" class="scroll-to-anchor" title="Grid">Grid</a>
+            <a href="#time-line" class="scroll-to-anchor" title="Time line">Time line</a>
+            <a href="#bar" class="scroll-to-anchor" title="Barre">Barre</a>
+            <a href="#background-color" class="scroll-to-anchor" title="Background color">Background Color</a>
+            <a href="#buttons" class="scroll-to-anchor" title="Buttons">Buttons</a>
+            <a href="#flash-message" class="scroll-to-anchor" title="Flash message">Flash message</a>
+            <a href="#tabs" class="scroll-to-anchor" title="Tabs">Tabs</a>
+            <a href="#scroll" class="scroll-to-anchor" title="Scroll">Scroll</a>
+            <a href="#table" class="scroll-to-anchor" title="Table">Table</a>
+            <a href="http://www.codythea.com/cssthea-theme.html"><i class="fa fa-coffee"></i> cssThea Theme</a>
+            <a href="http://www.codythea.com"><i class="fa fa-coffee"></i> codythea.com</a>
+        </nav>
+    </div>
 </header>
 <main>
     <div class="flash-message-container"></div>
