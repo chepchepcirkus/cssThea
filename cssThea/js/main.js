@@ -1,4 +1,3 @@
-// FUNCTIONS
 function stickHeader() {
 	if ($(window).scrollTop() >= 0) {
 		$('header').addClass('fix');
@@ -60,10 +59,21 @@ jQuery(document).ready(function($) {
 	});
 
 	$('#open-menu-trigger').click(function() {
-		$('header').toggleClass('nav-opened');
+		$('header').addClass('nav-opened');
+		$('#close-menu-trigger').show();
+        $('#open-menu-trigger').hide();
 	});
+
+    $('#close-menu-trigger').click(function() {
+        $('header').removeClass('nav-opened');
+        $('#close-menu-trigger').hide();
+        $('#open-menu-trigger').show();
+    });
+
 	$('nav a').click(function() {
-		$('header').toggleClass('nav-opened');
+		$('header').removeClass('nav-opened');
+        $('#close-menu-trigger').hide();
+        $('#open-menu-trigger').show();
 	});
 	// Header fixed on scroll
 	$(window).bind('scroll', function() {

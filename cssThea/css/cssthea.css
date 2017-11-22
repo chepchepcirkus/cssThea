@@ -26,7 +26,7 @@ a:active
     outline-style:none;
 }
 a:hover{
-    color:#5ece7f;
+    color:#5ECE90;
 }
 p {
     line-height: 1.5;
@@ -61,7 +61,7 @@ h3{
 }
 .title{
     text-align: center;
-    border-bottom: 1px solid #5ece7f;
+    border-bottom: 1px solid #5ECE90;
 }
 .f-right{
     float:right;
@@ -132,7 +132,8 @@ h3{
 .cont h5,
 .cont h6{
     text-align: center;
-    border-bottom: 1px solid #5ece7f;
+    border-bottom: 1px solid #5ECE90;
+    margin-bottom:15px !important;
 }
 
 /* Alignement */
@@ -164,7 +165,7 @@ h3{
     height:100%;
     width:100%;
     z-index:0;
-    background:#5ece7f;
+    background:#5ECE90;
     top:0;
     left:0;
     -o-border-radius:2px;
@@ -217,7 +218,7 @@ h3{
     -webkit-transition: width 0.4s, height 0.4s;
     -moz-transition: width 0.4s, height 0.4s;
     transition: width 0.4s, height 0.4s;
-    border:3px solid #5ece7f;
+    border:3px solid #5ECE90;
 }
 
 /* shape */
@@ -229,7 +230,7 @@ h3{
     border-radius:50%;
     display:inline-block;
     overflow: hidden !important;
-    border:3px solid #5ece7f;
+    border:3px solid #5ECE90;
 }
 
 /* time-line */
@@ -244,7 +245,7 @@ ul.time-line li span{
     width:8px;
     height:8px;
     margin:0 auto 10px;
-    background: #5ece7f;
+    background: #5ECE90;
     -webkit-border-radius:50%;
     -moz-border-radius:50%;
     border-radius:50%;
@@ -260,7 +261,7 @@ ul.time-line li span{
 	overflow-y:auto;
 }
 .table .row.head{
-	border-bottom:1px solid #5ece7f;
+	border-bottom:1px solid #5ECE90;
 }
 .table .column{
 	padding:5px 10px;
@@ -311,7 +312,7 @@ code{
     cursor:pointer;
 }
 .tabs .tabs-head .active{
-	border-bottom:2px solid #5ece7f;
+	border-bottom:2px solid #5ECE90;
 }
 .tabs .tab-content{
 	overflow:hidden;
@@ -364,7 +365,7 @@ code{
     background:#306840 !important;
 }
 .bg-greenthea-light{
-    background:#5ece7f !important;
+    background:#5ECE90 !important;
 }
 .bg-blue{
     background:#39828c !important;
@@ -443,7 +444,7 @@ th,
 td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #5ece7f;
+    border-bottom: 1px solid #5ECE90;
 }
 th:first-child,
 td:first-child {

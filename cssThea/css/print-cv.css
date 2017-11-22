@@ -1,0 +1,19 @@
+@media print{
+    * {
+	    -webkit-print-color-adjust: exact;
+	    print-color-adjust: exact;
+    }
+    @page {
+        margin: 2cm;
+        size: A4;
+    }
+    body{
+    	width:100%;
+    	overflow:initial !important;
+    	page-break-inside: avoid;
+    }
+    .cont{
+    	width:50%;
+    	page-break-inside: always;
+    }
+}
