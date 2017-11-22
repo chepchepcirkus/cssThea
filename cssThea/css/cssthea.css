@@ -431,12 +431,27 @@ code{
     right:30px;
     width: auto;
     padding: 0 3px;
-    background: #1fac5c;
+    background: #5ECE90;
     border-radius:100%;
     -o-border-radius:100%;
     -ms-border-radius:100%;
     -webkit-border-radius:100%;
     -moz-border-radius:100%;
+    -o-transition: background 0.4s, color 0.4s;
+    -ms-transition: background 0.4s, color 0.4s;
+    -webkit-transition: background 0.4s, color 0.4s;
+    -moz-transition: background 0.4s, color 0.4s;
+    transition: background 0.4s, color 0.4s;
+}
+
+.btn-scroll-up:hover{
+    background: #FFF;
+    color:#5ECE90;
+    -o-transition: background 0.4s, color 0.4s;
+    -ms-transition: background 0.4s, color 0.4s;
+    -webkit-transition: background 0.4s, color 0.4s;
+    -moz-transition: background 0.4s, color 0.4s;
+    transition: background 0.4s, color 0.4s;
 }
 
 /* Table */

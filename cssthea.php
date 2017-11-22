@@ -30,7 +30,7 @@
 </script>
 <header>
     <div>
-        <h1><i class="fa fa-coffee"></i> cssThea <small>light taste</small></h1>
+        <h1><i class="fa fa-coffee fa-2x"></i> cssThea <small>light taste</small></h1>
         <div class="social-network">
             <a target="_blank" href="https://fr.linkedin.com/in/steven-servanton-26322681" title="Rejoignez-moi sur Linked in"><i class="fa fa-linkedin-square fa-2x"></i></a>
             <a target="_blank" href="https://github.com/chepchepcirkus" title="Rejoignez-moi sur github.com"><i class="fa fa-github fa-2x"></i></a>
