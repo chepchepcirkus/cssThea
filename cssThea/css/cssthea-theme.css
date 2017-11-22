@@ -11,7 +11,7 @@ nav,
 footer{
     margin:0 auto;
     display: block;
-    padding: 1%;
+    padding: 10px;
 }
 main{
     position: relative;
@@ -39,7 +39,7 @@ header > div{
     -moz-transition: width 0.4s;
     transition: width 0.4s;
     text-align: left;
-    padding:1%;
+    padding:10px;
     width:100%;
 }
 header.fix > div{
@@ -64,7 +64,7 @@ nav a{
 }
 footer{
     text-align: center;
-    padding:1%;
+    padding:10px;
 }
 footer a{
     display:inline-block;
@@ -133,10 +133,11 @@ header.nav-opened #close-menu-trigger{
     border-bottom: 1px solid #EEE;
 }
 nav {
+    padding:0 20px 0 10px !important;
     position: fixed;
     height: 100%;
     right: 0;
-    top:93px;
+    top:113px;
     visibility: hidden;
     z-index: 2;
     width: 250px;
@@ -187,6 +188,7 @@ nav a{
 
 nav a.first{
     border-top:1px solid #ccc !important;
+    margin-top:0 !important;
 }
 header.nav-opened nav a i{
     float:right;
@@ -216,10 +218,11 @@ nav a:hover{
 nav a span{
     display:inline-block;
     vertical-align: middle;
-    width:135px;
+    width:150px;
 }
 nav a span + span{
-    width:65px;
+    width:40px;
+    margin-left:10px;
 }
 
 .certifications{
@@ -334,7 +337,6 @@ footer a.last:after{
     }
     nav{
         overflow: hidden;
-        padding:1%;
         visibility: visible;
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
@@ -345,7 +347,6 @@ footer a.last:after{
         position:absolute;
         left:-200px;
         right:inherit;
-        top:80px;
         width:auto;
         display:inline-block;
         height:auto;

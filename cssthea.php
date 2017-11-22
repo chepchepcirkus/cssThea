@@ -43,7 +43,7 @@
             <i class="fa fa-close fa-3x"></i>
         </a>
         <nav>
-            <a href="#usefull-classes" class="scroll-to-anchor" title="Usefull Classes">Usefull classes</a>
+            <a href="#usefull-classes" class="scroll-to-anchor first" title="Usefull Classes">Usefull classes</a>
             <a href="#grid" class="scroll-to-anchor" title="Grid">Grid</a>
             <a href="#time-line" class="scroll-to-anchor" title="Time line">Time line</a>
             <a href="#bar" class="scroll-to-anchor" title="Barre">Barre</a>
