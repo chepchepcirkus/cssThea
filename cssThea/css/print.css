@@ -1,0 +1,80 @@
+@media print{
+    * {
+	    -webkit-print-color-adjust: exact;
+	    print-color-adjust: exact;
+    }
+
+    @page{
+        size: auto
+    }
+    html,
+    body,
+    .stream{
+        margin:0;
+        width:100%;
+    }
+    nav,
+    footer,
+    .section-outils,
+    #scroll-up-btn{
+        display:none;
+    }
+    header {
+        position: inherit;
+        page-break-after: avoid !important;
+        page-break-before: avoid !important;
+        page-break-inside: avoid !important;
+        -webkit-region-break-inside: avoid;
+        margin:0;
+    }
+    header,
+    main,
+    .cont,
+    .stream{
+        /*position: relative;*/
+        page-break-after: avoid !important;
+        page-break-before: avoid !important;
+        page-break-inside: avoid !important;
+        -webkit-region-break-inside: avoid;
+    }
+    strong{
+        font-weight:300;
+    }
+    main{
+        padding:0;
+        margin:0;
+        width:100%;
+        height:100%;
+    }
+    .intro{
+        margin-top:10%;
+    }
+    #dev-frontend{
+        margin-top:10%;
+    }
+    .w-1 {width: 4.66666666667%;}
+    .w-2 {width: 13.3333333333%;}
+    .w-3 {width: 22%;}
+    .w-4 {width: 30.6666666667%;}
+    .w-5 {width: 39.3333333333%;}
+    .w-6 {width: 48%;}
+    .w-7 {width: 56.6666666667%;}
+    .w-8 {width: 65.3333333333%;}
+    .w-9 {width: 74.0%;}
+    .w-10 {width: 82.6666666667%;}
+    .w-11 {width: 91.3333333333%;}
+    .w-12 {width: 100%; margin-left: 0;}
+
+    /* Offsets */
+    .push-1{margin-left: 8.66666666667%;}
+    .push-2{margin-left: 17.3333333333%;}
+    .push-3{margin-left: 26%;}
+    .push-4{margin-left: 34.6666666667%;}
+    .push-5{margin-left: 43.3333333333%;}
+    .push-6{margin-left: 52%;}
+    .push-7{margin-left: 60.6666666667%;}
+    .push-8{margin-left: 69.3333333333%;}
+    .push-9{margin-left: 78.0%;}
+    .push-10{margin-left: 86.6666666667%;}
+    .push-11{margin-left: 95.3333333333%;}
+}
