@@ -138,13 +138,13 @@ h3{
 
 /* Alignement */
 .a-center{
-    text-align: center;
+    text-align: center !important;
 }
 .a-right{
-    text-align: right;
+    text-align: right !important;;
 }
 .a-left{
-    text-align: left;
+    text-align: left !important;;
 }
 
 /* Rate bar */
